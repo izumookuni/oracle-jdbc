@@ -38,7 +38,7 @@ bintray {
         githubRepo = "${github_user}/${project.name}"
         version {
             name = "${project.version}"
-            desc = 'Oracle JDBC Library'
+            desc = 'Oracle 12c JDBC Library'
             released = new Date()
         }
     }
